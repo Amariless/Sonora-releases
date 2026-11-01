@@ -1,53 +1,87 @@
 <p align="center">
-  <img src="docs/icon.png" width="96" alt="Icono de Sonora">
+  <img src="docs/icon.png" width="96" alt="Sonora icon">
 </p>
 
 <h1 align="center">Sonora</h1>
 
 <p align="center">
-  Un reproductor para la música que tienes en tu equipo.
+  A music player for the songs you own, with synced lyrics, a cinema mode and a look you can make entirely your own.
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><b>Descargar la última versión</b></a>
-  &nbsp;·&nbsp; Windows &nbsp;·&nbsp; Linux
+  <a href="https://github.com/Amariless/Sonora-releases/releases/latest/download/Sonora-Windows-Setup.exe"><img src="https://img.shields.io/badge/Windows-Installer_.exe-17161c?style=for-the-badge&labelColor=e8a33d&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0wIDMuNCA5LjggMnY5LjRIMHpNMTEgMS44IDI0IDB2MTEuM0gxMXpNMCAxMi42aDkuOFYyMkwwIDIwLjZ6TTExIDEyLjZoMTNWMjRsLTEzLTEuOHoiLz48L3N2Zz4=" alt="Download for Windows"></a>
+  <a href="https://github.com/Amariless/Sonora-releases/releases/latest/download/Sonora-Linux-x86_64.AppImage"><img src="https://img.shields.io/badge/Linux-AppImage-17161c?style=for-the-badge&labelColor=e8a33d&logo=linux&logoColor=white" alt="Download for Linux"></a>
 </p>
 
 <p align="center">
-  <img src="docs/captura.png" width="860" alt="Sonora mostrando un álbum, la canción en reproducción y su letra sincronizada">
+  <img src="docs/screenshot.png" width="880" alt="Sonora browsing a music library by artist">
 </p>
 
-## Qué es
+## What it is
 
-Sonora es para quien tiene su música en archivos y quiere escucharla bien. Le indicas tu carpeta de música y arma la biblioteca sola: artistas, álbumes, géneros y portadas. Es liviano, no necesita cuenta y funciona sin internet.
+Point Sonora at your music folder and it builds your library by itself: artists, albums, genres and covers. It's fast, needs no account and works offline. It's made for people who keep their music as files and want to enjoy it properly.
 
-## Lo que puedes hacer
+<table>
+  <tr>
+    <td width="62%"><img src="docs/cinema.png" alt="Sonora cinema mode with a full-screen visualizer and lyrics"></td>
+    <td width="38%">
+      <h3>Cinema mode</h3>
+      <p>Turn the whole screen into a light show. Hundreds of MilkDrop visualizations react to the music, with the lyrics floating on top.</p>
+      <p>It can change the visualization with every song or every few seconds, and you can keep your favorites and hide the ones you don't like.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="62%">
+      <h3>Lyrics that follow the song</h3>
+      <p>Sonora shows synced lyrics line by line, from <code>.lrc</code> files next to your songs or from the internet if you allow it.</p>
+      <p>A song has no synced lyrics? Sync them yourself with the built-in editor: play the song and tap a key on every line, with the waveform to guide you.</p>
+    </td>
+    <td width="38%" align="center"><img src="docs/lyrics.png" width="260" alt="The now playing panel with synced lyrics"></td>
+  </tr>
+  <tr>
+    <td width="62%"><img src="docs/themes.png" alt="Sonora theme settings"></td>
+    <td width="38%">
+      <h3>Make it look like yours</h3>
+      <p>Pick a theme for the main window and another for the mini player, light or dark, and customize its colors.</p>
+      <p>Change fonts, spacing, corners, the seek bar and which buttons show up. Or load a classic Winamp skin (<code>.wsz</code>).</p>
+    </td>
+  </tr>
+</table>
 
-- **Explorar tu biblioteca** por artista, álbum o género, con búsqueda instantánea y listas automáticas: lo más escuchado, lo añadido hace poco y canciones que hace tiempo no suenan.
-- **Seguir la letra en tiempo real.** Lee archivos `.lrc` junto a tus canciones o las busca en internet, si lo permites. También trae un editor para sincronizar letras a mano.
-- **Ajustar el sonido** con un ecualizador y perfiles para tu modelo de audífonos (basados en AutoEq), normalización de volumen y transición suave entre canciones.
-- **Escuchar sin alteraciones.** En Windows tiene salida bit-perfect, que envía el audio a tu tarjeta de sonido sin pasar por el mezclador del sistema.
-- **Personalizar el aspecto** con temas, o cargar skins clásicas de Winamp (`.wsz`).
-- **Usar tus listas de siempre.** Abre y guarda listas `.m3u8` y `.pls`, e importa las de MusicBee.
-- **Poner un visualizador** a pantalla completa, o pasar a un mini reproductor.
-- **Ver tu resumen del año** con lo que más escuchaste.
+## Features
 
-## Instalación
+- **Smart playlists** that fill themselves from rules, plus ready-made lists for your most played songs, recent additions and songs you haven't heard in a while.
+- **Smart shuffle** that favors songs you rate higher or play less, and avoids playing the same artist twice in a row.
+- **An animated, comfortable interface** with smooth transitions, ratings and columns you can arrange the way you like.
+- **Fast**, even with thousands of songs. The library updates itself when you add or remove music.
+- **Great sound**: an equalizer with profiles for your headphone model, volume normalization and crossfade between songs. On Windows it can also send audio straight to your sound card, untouched (bit-perfect).
+- **Your playlists, as they are**: open and save `.m3u8` and `.pls` playlists, and import the ones from MusicBee.
+- **A mini player** for when you just want the controls.
+- **Your year in music**, with what you listened to the most.
+- Interface in English and Spanish.
 
-| Sistema | Descarga |
-|---|---|
-| Windows | [`Sonora-Windows-Setup.exe`](../../releases/latest/download/Sonora-Windows-Setup.exe) |
-| Linux, cualquier distribución | [`Sonora-Linux-x86_64.AppImage`](../../releases/latest/download/Sonora-Linux-x86_64.AppImage): dale permiso de ejecución (`chmod +x`) y ábrelo |
-| Debian, Ubuntu | [`Sonora-Linux-amd64.deb`](../../releases/latest/download/Sonora-Linux-amd64.deb) |
+## Download
 
-En Windows puede aparecer un aviso de SmartScreen porque el instalador no está firmado con un certificado de pago. Elige *Más información → Ejecutar de todas formas*.
+| System | Download | Notes |
+|---|---|---|
+| **Windows** | [Installer (.exe)](https://github.com/Amariless/Sonora-releases/releases/latest/download/Sonora-Windows-Setup.exe) | Windows 10 or 11. If SmartScreen shows up, choose *More info → Run anyway*. The installer isn't signed with a paid certificate. |
+| **Linux** | [AppImage](https://github.com/Amariless/Sonora-releases/releases/latest/download/Sonora-Linux-x86_64.AppImage) | Any distribution. Make it executable (`chmod +x`) and open it. |
+| **Debian, Ubuntu, Mint** | [Package (.deb)](https://github.com/Amariless/Sonora-releases/releases/latest/download/Sonora-Linux-amd64.deb) | Double-click it or install it with `sudo apt install ./Sonora-Linux-amd64.deb`. |
 
-macOS no tiene versión por ahora. Las versiones anteriores están en [Releases](../../releases).
+There's no macOS version yet. Older versions and release notes are on the [Releases](https://github.com/Amariless/Sonora-releases/releases) page.
 
-## Actualizaciones
+To update, go to *Settings → Updates → Check for updates*. Updates are signed, so the app only accepts files published here. On Linux, automatic updates work with the AppImage.
 
-Desde la app: *Configuración → Actualizaciones → Buscar actualizaciones*. Las actualizaciones van firmadas y la app rechaza cualquier archivo que no sea el original. En Linux, la actualización automática funciona con la versión AppImage.
+## Feedback
+
+Found a bug, have an idea or just want to say something? Each button opens a short form.
+
+<p>
+  <a href="https://github.com/Amariless/Sonora-releases/issues/new?template=bug.yml"><img src="https://img.shields.io/badge/Report_a_bug-e8a33d?style=for-the-badge" alt="Report a bug"></a>
+  <a href="https://github.com/Amariless/Sonora-releases/issues/new?template=idea.yml"><img src="https://img.shields.io/badge/Suggest_an_idea-e8a33d?style=for-the-badge" alt="Suggest an idea"></a>
+  <a href="https://github.com/Amariless/Sonora-releases/issues/new?template=comment.yml"><img src="https://img.shields.io/badge/Leave_a_comment-e8a33d?style=for-the-badge" alt="Leave a comment"></a>
+</p>
 
 ---
 
-Este repositorio solo publica los instaladores; el código fuente es privado. Si algo falla o tienes una idea, abre un [issue](../../issues).
+<sub>This repository only hosts the installers; the source code is private.</sub>
