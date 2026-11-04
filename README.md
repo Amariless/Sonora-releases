@@ -21,6 +21,8 @@
 
 Point Sonora at your music folder and it builds your library by itself: artists, albums, genres and covers. It's fast, needs no account and works offline. It's made for people who keep their music as files and want to enjoy it properly.
 
+On the first run a short setup walks you through your music folders, the look, where playlists live and how lyrics are found, in about a minute.
+
 <table>
   <tr>
     <td width="62%"><img src="docs/cinema.png" alt="Sonora cinema mode with a full-screen visualizer and lyrics"></td>
@@ -33,17 +35,32 @@ Point Sonora at your music folder and it builds your library by itself: artists,
   <tr>
     <td width="62%">
       <h3>Lyrics that follow the song</h3>
-      <p>Sonora shows synced lyrics line by line, from <code>.lrc</code> files next to your songs or from the internet if you allow it.</p>
-      <p>A song has no synced lyrics? Sync them yourself with the built-in editor: play the song and tap a key on every line, with the waveform to guide you.</p>
+      <p>Sonora shows synced lyrics line by line, from <code>.lrc</code> files next to your songs, from the tags inside them, or by looking them up for you as <i>artist - title</i> (LRCLIB and NetEase). Lookups are optional and can be turned off.</p>
+      <p>Lyrics that only exist as plain text are spread over the song automatically, so they still scroll along.</p>
     </td>
     <td width="38%" align="center"><img src="docs/lyrics.png" width="260" alt="The now playing panel with synced lyrics"></td>
   </tr>
   <tr>
-    <td width="62%"><img src="docs/themes.png" alt="Sonora theme settings"></td>
+    <td width="62%"><img src="docs/sync.png" alt="The lyrics sync editor with the waveform and a marker on every line"></td>
     <td width="38%">
+      <h3>Sync them yourself</h3>
+      <p>No synced lyrics for a song? Play it and tap a key on every line, with the waveform to guide you. Zoom into the waveform, drag the markers to fine-tune them and mark instrumental parts.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="62%">
       <h3>Make it look like yours</h3>
       <p>Pick a theme for the main window and another for the mini player, light or dark, and customize its colors.</p>
-      <p>Change fonts, spacing, corners, the seek bar and which buttons show up. Or load a classic Winamp skin (<code>.wsz</code>).</p>
+      <p>Change fonts, spacing, corners, the seek bar and which buttons show up. Scale the whole interface from 100% to 150%. Or load a classic Winamp skin (<code>.wsz</code>).</p>
+    </td>
+    <td width="38%"><img src="docs/themes.png" alt="Sonora theme settings"></td>
+  </tr>
+  <tr>
+    <td width="62%"><img src="docs/unwrapped.png" alt="Sonora Unwrapped showing the song of the year"></td>
+    <td width="38%">
+      <h3>Your year in music</h3>
+      <p><b>Unwrapped</b> turns what you played into a full-screen story: minutes listened, your song, artist and genre of the year, your best days and streaks. Songs play as you tap through it, and you can pick a color palette.</p>
+      <p>Everything is computed on your computer, and you can export it as an image, PDF or data file.</p>
     </td>
   </tr>
 </table>
@@ -56,9 +73,10 @@ Point Sonora at your music folder and it builds your library by itself: artists,
 - **Fast**, even with thousands of songs. The library updates itself when you add or remove music.
 - **Great sound**: an equalizer with profiles for your headphone model, volume normalization and crossfade between songs. On Windows it can also send audio straight to your sound card, untouched (bit-perfect).
 - **Your playlists, as they are**: open and save `.m3u8` and `.pls` playlists, and import the ones from MusicBee.
+- **Cut a song** to the part you like. MP3 files are cut without re-encoding, so nothing is lost.
 - **A mini player** for when you just want the controls.
-- **Your year in music**, with what you listened to the most.
-- Interface in English and Spanish.
+- **Your language**: English and Spanish are built in, and you can add your own by dropping a translation file in a folder.
+- **Private by default**: no account and no tracking. The only things that use the internet are optional: lyrics lookups, the birthplace of your artists in Unwrapped, and the update check.
 
 ## Download
 
